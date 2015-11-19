@@ -109,8 +109,6 @@ class filter_personalise extends moodle_text_filter {
         if ($guestrolename === null) {
             $guestrole = get_guest_role();
             $guestrolename = empty($guestrole->name) ? $guestrole->shortname : $guestrole->name;
-
-
         }
 
         return $guestrolename;
